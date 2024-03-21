@@ -1,0 +1,49 @@
+1) HTTP
+
+* HTTP stands for hypertext transfer protocol
+* It is used in client-server communication
+* The user sends the request to the server & the server sends the response to the user
+
+HTTP 1.1
+
+* It works on the textual format
+* There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources
+* It compresses data by itself
+
+HTTP 2
+
+* It works on the binary protocol
+* It allows multiplexing so one TCP connection is required for multiple requests
+* It uses HPACK for data compression
+
+2) Objects
+
+* A JavaScript object is a collection of named values having state and behavior
+* Objects are the most important data-type and forms the building blocks for modern JavaScript
+* objects in JavaScript may be defined as an unordered collection of related data of primitive or reference types 
+in the form of “key: value” pairs
+* These keys can be variables or functions and are called properties and methods respectively in the context of an object
+* Syntax for object is var <object-name> = {key1: value1, key2: value2,... keyN: valueN};
+* Basic example : var myCar = new Object();
+ myCar.make = 'Cars';
+ myCar.model = 'Hyundai';
+ myCar.year = 2024;
+* Basic Program
+------qn--------
+var book1={
+    title:"Harry Potter",
+    pages: 1000,
+    isAvail: true,
+}
+var book2={
+    title:"Harry Potter-2",
+    pages: 1050,
+    isAvail: false,
+}
+console.log(book1);
+console.log("Book1: ",book1.title);
+console.log("Book1: ",book2["pages"]);
+-------sol------
+{title: 'Harry Potter', pages: 1000, isAvail: true}
+Book1:  Harry Potter
+Book1:  1050
