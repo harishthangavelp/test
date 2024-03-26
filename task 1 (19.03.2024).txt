@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-Document Object
-
-* The document object represents a web page that is loaded in the browser
-* The document object can be accessed with a window.document or just document
-* The Document object(DOM) is your html, aspx, php, or other document that will be loaded into the browser
-* The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc
-* The document object is a property of window object
-* Syntax is document.property_name;
-
-Window Object
-
-* he window object is the topmost object of the DOM hierarchy
-* Window is the main JavaScript object root
-* It represents a browser window or frame that displays the contents of the webpage
-* Whenever a window appears on the screen to display the contents of the document, the window object is created
-* This window object has the majority of the properties like length, innerWidth, innerHeight, name etc...
-* Syntax is window.property_name;
-=======
 1) HTTP
 
 * HTTP stands for hypertext transfer protocol
@@ -66,4 +47,3 @@ console.log("Book1: ",book2["pages"]);
 {title: 'Harry Potter', pages: 1000, isAvail: true}
 Book1:  Harry Potter
 Book1:  1050
->>>>>>> 51f67c9af67f8bf421b1ca0f0f32c058ae8c8204
