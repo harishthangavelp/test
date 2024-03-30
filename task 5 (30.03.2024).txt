@@ -1,0 +1,198 @@
+_________________________________________________________[TASK - 5]___________________________________________________________________
+1) Create your own resume data in JSON format
+
+// A Simple Resume of Harish Thangavel P (in JSON format)
+---------------------------JSON Format------------------
+{
+  "mydetail": {
+    "name": "harish thangavel p",
+    "label": "nil",
+    "picture": "nil",
+    "email": "harishthangavelp@gmail.com",
+    "phone": "360296093",
+    "degree": "B.E.,ECE",
+    "website": "NIL",
+    "summary": "nil",
+    "location": {
+      "address": "Kanchipuram",
+      "postalCode": "631502",
+      "city": "Kanchipuram",
+      "countryCode": "631 502",
+      "region": "Indian"
+    },
+    "profiles": [
+      {
+        "network": "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        "username": "Your username on this network",
+        "url": "A URL to your user profile page"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "CTTI",
+      "position": "GAT",
+      "website": "The URL for the employer's website",
+      "startDate": "september",
+      "endDate": "NIL since still going",
+      "summary": "work in production dept",
+      "highlights": [
+        "nil"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "panimalar eng college",
+      "area": "ECE",
+      "studyType": "August",
+      "startDate": "2019",
+      "endDate": "2023",
+      "gpa": "8.55",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "It job skills (e.g. 'Programming Languages')",
+      "level": "3",
+      "keywords": [
+        "HTML, CSS, JS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Tamil and English",
+      "fluency": "Great"
+    }
+  ],
+  "interests": [
+    {
+      "name": "FSD",
+      "keywords": [
+        "(Cricket)"
+      ]
+    }
+  ]
+}
+---------------------------Object Format------------------
+{
+  mydetail: {
+    name: "harish thangavel p",
+    label: "nil",
+    picture: "nil",
+    email: "harishthangavelp@gmail.com",
+    phone: "360296093",
+    degree: "B.E.,ECE",
+    website: "NIL",
+    summary: "nil",
+    location: {
+      address: "Kanchipuram",
+      postalCode: "631502",
+      city: "Kanchipuram",
+      countryCode: "631 502",
+      region: "Indian"
+    },
+    profiles: [
+      {
+        network: "A social media or other profile that you would like to include (e.g. LinkedIn, Twitter)",
+        username: "Your username on this network",
+        url: "A URL to your user profile page"
+      }
+    ]
+  },
+  work: [
+    {
+      company: "CTTI",
+      position: "GAT",
+      website: "The URL for the employer's website",
+      startDate: "september",
+      endDate: "NIL since still going",
+      summary: "work in production dept",
+      highlights: [
+        "nil"
+      ]
+    }
+  ],
+  education: [
+    {
+      institution: "panimalar eng college",
+      area: "ECE",
+      studyType: "August",
+      startDate: "2019",
+      endDate: "2023",
+      gpa: "8.55",
+      courses: [
+        ""
+      ]
+    }
+  ],
+  skills: [
+    {
+      name: "It job skills (e.g. 'Programming Languages')",
+      level: "3",
+      keywords: [
+        "HTML, CSS, JS"
+      ]
+    }
+  ],
+  languages: [
+    {
+      language: "Tamil and English",
+      fluency: "Great"
+    }
+  ],
+  interests: [
+    {
+      name: "FSD",
+      keywords: [
+        "(Cricket)"
+      ]
+    }
+  ]
+}
+
+2) For the given JSON iterate over all for loops (for, for in, for of, for Each)
+
+var json = [{
+    "id" : "guvi1", 
+    "msg"   : "For the given JSON iterate over all for loops (for, for in, for of, forEach)",
+    "task" : "zen portal task 1",
+    "mail": "guvi1@gmail.com"
+},
+{
+    "id" : "guvi2", 
+    "msg"   : "For the given JSON iterate over all for loops (for, for in, for of, forEach)",
+    "task" : "zen portal task 2",
+    "mail": "guvi2@gmail.com"
+}];
+//for loop
+for(var i = 0; i < json.length; i++) {
+    var obj = json[i];
+
+    console.log(obj.id);
+    console.log(obj.msg);
+    console.log(obj.task);
+    console.log(obj.mail);
+
+}
+//for Each
+json.forEach(function(obj) { console.log(obj.msg); });
+
+//for In
+for (var key in json) {
+if (json.hasOwnProperty(key)) {
+  console.log(json[key].id);
+  //console.log(json[key].msg);
+ 
+}
+}
+//for Of
+let text = "";
+for (let x of json[key].id) {
+ text += x; 
+}
+ console.log(text);
