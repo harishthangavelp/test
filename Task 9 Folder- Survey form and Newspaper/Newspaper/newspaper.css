@@ -1,0 +1,133 @@
+legend{
+    font-family: 'Impact';
+    text-align: center;
+}
+fieldset{
+    height:85em;
+    background-color: aquamarine;
+}
+.d1st{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+}
+
+.box1{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .box2{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .box3{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .box4{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .box5{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .box6{
+    background-color: lightblue;
+    width: 50px;
+    height: 50px;
+    border: 15px solid lightblue;
+    padding: 50px;
+    margin: 20px 0px;
+    content-visibility: hidden;
+  }
+
+  .divimg1{
+    transform: translate(0.9em,-75em);
+  }
+  .divimg2{
+    transform: translate(0.9em,-69em);
+  }
+  .divimg3{
+    transform: translate(0.9em,-63em);
+  }
+  .divimg4{
+    transform: translate(0.9em,-57em);
+  }
+  .divimg5{
+    transform: translate(0.9em,-51em);
+  }
+  .divimg6{
+    transform: translate(0.9em,-45em);
+  }
+
+.boldFont1{
+transform:translate(3em,-107em);
+  }
+.boldFont2{
+transform:translate(3em,-98em);
+      }
+.boldFont3{
+transform:translate(1.5em,-89em);
+          }
+.boldFont4{
+transform:translate(2.5em,-80em);
+              }
+.boldFont5{
+transform:translate(2em,-70.5em);
+                  }
+.boldFont6{
+transform:translate(3em,-61em);
+                      }
+.container1{
+border: 2px solid black;
+transform:translate(15em,-133em);
+width: 460px;
+height: 300px;
+}
+.container2{
+    border: 2px solid black;
+    transform:translate(50em,-152em);
+    width: 460px;
+    height: 300px;
+    }
+.centerText{
+    text-align: center;
+    font-size:larger;
+    transform:translate(5em,-126em);
+}
+.lastText{
+    transform:translate(13em,-151em);
+    width: 66em;
+    height: 300px;
+}
